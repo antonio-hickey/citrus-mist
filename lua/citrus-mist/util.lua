@@ -8,7 +8,7 @@ local function parse_color(color)
 	color = color:lower()
 
 	if not color:find('#') and color ~= 'none' then
-		color = require('minty-melon.palette')[color]
+		color = require('citrus-mist.palette')[color]
 			or vim.api.nvim_get_color_by_name(color)
 	end
 

@@ -1,4 +1,4 @@
-local util = require('minty-melon.util')
+local util = require('citrus-mist.util')
 
 local M = {}
 
@@ -11,10 +11,10 @@ function M.colorscheme()
 
     -- Theme meta shit
     vim.opt.termguicolors = true
-    vim.g.colors_name = 'minty-melon'
+    vim.g.colors_name = 'citrus-mist'
 
     -- Perform the theme highlighting
-    local theme = require('minty-melon.theme').set_colors()
+    local theme = require('citrus-mist.theme').set_colors()
     for group, color in pairs(theme) do
         util.highlight(group, color)
     end

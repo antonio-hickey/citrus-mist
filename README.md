@@ -1,3 +1,2 @@
-# Minty Melon
+# Citrus Mist
 
-A refreshing (neo)Vim colorscheme.
